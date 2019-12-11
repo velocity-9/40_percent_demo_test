@@ -4,7 +4,7 @@ from v9 import V9Component
 
 def test(http_method, path, request_arguments, request_body):
     print(http_method, path, request_arguments, request_body)
-    return 200, "We Have a Very Succesful Demoe"
+    return 200, "All good here"
 
 if __name__ == '__main__':
     print("Arguments " + str(sys.argv))
